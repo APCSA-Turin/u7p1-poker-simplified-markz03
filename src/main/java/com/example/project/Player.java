@@ -1,5 +1,7 @@
 package com.example.project;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 
 
 public class Player{
@@ -16,14 +18,17 @@ public class Player{
     public ArrayList<Card> getAllCards(){return allCards;}
 
     public void addCard(Card c){
-        
+        hand.add(c);
+        allCards.add(c);
     }
 
     public String playHand(ArrayList<Card> communityCards){      
         return "Nothing";
     }
 
-    public void sortAllCards(){} 
+    public void sortAllCards(){
+        allCards = Arrays.sort(allCards);
+    } 
 
     public ArrayList<Integer> findRankingFrequency(){
         return new ArrayList<>(); 
