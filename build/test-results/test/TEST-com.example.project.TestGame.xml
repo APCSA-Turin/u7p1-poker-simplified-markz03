@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.project.TestGame" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-03-06T00:13:29" hostname="codespaces-d8b86a" time="0.077">
+  <properties/>
+  <testcase name="testFullHouseDraw_Player1Wins()" classname="com.example.project.TestGame" time="0.031"/>
+  <testcase name="testFlushDraw_Player2Wins()" classname="com.example.project.TestGame" time="0.003"/>
+  <testcase name="testTwoPair_TieGame()" classname="com.example.project.TestGame" time="0.003"/>
+  <testcase name="testHighCard_TieGame()" classname="com.example.project.TestGame" time="0.003"/>
+  <testcase name="testFourOfAKindVsThreeOfAKind_Player2Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <testcase name="testAPair_Player1Wins()" classname="com.example.project.TestGame" time="0.003"/>
+  <testcase name="testStraight_Player1Wins()" classname="com.example.project.TestGame" time="0.0"/>
+  <testcase name="testPairDrawHighCard_Player2Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <testcase name="testHighCard_Player2Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <testcase name="testFullHouseVsThreeOfAKind_Player1Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <testcase name="testThreeOfAKind_Player1Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <testcase name="testStraightFlush_Player1Wins()" classname="com.example.project.TestGame" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
